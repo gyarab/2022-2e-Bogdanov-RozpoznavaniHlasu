@@ -1,0 +1,1 @@
+# 2022-2e-Bogdanov-RozpoznavaniHlasu
