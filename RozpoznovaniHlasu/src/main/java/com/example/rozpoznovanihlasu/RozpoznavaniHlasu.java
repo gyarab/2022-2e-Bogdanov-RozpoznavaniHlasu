@@ -200,7 +200,7 @@ public class RozpoznavaniHlasu extends Application {
                 int found = 0;
                 //porovnávání každé číslo s každým
                 for(int index = 0; index < frequency.size(); index++){
-                    //jinak napsano if(listUniqueLoad.contains(solve)-> jestli je rovno solve)
+                    //jinak napsano if(listUniqueLoad.contains(frequency.get(index))-> jestli je rovno frekvenci(porovná každou hodnotu s každou)
                     // pokud ano přičti found jedna, pokud ne přičti nula
                     found += (loadedFreq.contains(frequency.get(index)) && loadedMag.contains(magnitude.get(index)) ) ? 1 : 0;
                 }
